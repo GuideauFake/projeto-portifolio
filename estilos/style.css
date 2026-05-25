@@ -37,6 +37,9 @@ header{
   padding: 10px;
   background-color: var(--destaque);
   color: var(--texto);
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
 
 #menu ul{
@@ -251,7 +254,7 @@ footer a{
 }
 footer a:hover{
   color: var(--destaque-inverso);
-  
+
 }
 
 @media screen and (min-width: 760px) {
